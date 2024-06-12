@@ -1,4 +1,4 @@
-
+use pjbl_exp_criativa;
 
 # USER
 insert into users(username, name, email, phone, password, is_admin, date_creation, card_num_card, card_name_owner, card_cvv, card_month_expire_date, card_year_expire_date)

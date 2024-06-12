@@ -10,3 +10,5 @@ from models.sensors.record import Record
 from models.payment.payment import Payment
 
 from models.plants.plant import Plant
+
+from models.gasto.gasto import Gasto
