@@ -8,6 +8,6 @@ if __name__ == "__main__":
     app = createApp()
     create_db(app)
     config_db(app)
-    app.run(debug=True)
-    #app.run()
+    #app.run(debug=True)
+    app.run()
  
