@@ -16,6 +16,7 @@ from models import db, instance, login_manager
 
 def createApp() -> Flask:
     # Criando o FlaskApp
+    #app = Flask(__name__, template_folder="../views/", static_folder="../static/")
     app = Flask(__name__, template_folder="./views/", static_folder="./views/", root_path="./")
 
     # Registrando Blueprints
@@ -38,6 +39,7 @@ def createApp() -> Flask:
 
     @app.route('/')
     def index():
+        #return render_template("index.html")
         return render_template("sb-admin/index.html")
     
     @app.route("/addgasto", methods=["POST"])
